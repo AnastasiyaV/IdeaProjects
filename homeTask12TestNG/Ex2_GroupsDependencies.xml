@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name = "Suite Ex 2_GroupsDependencies">
+        <test name = "Test">
+        <groups>
+            <run>
+                <include name= "A"/>
+                <exclude name="B"/>
+
+            </run>
+        </groups>
+        <classes>
+            <class name = "com.softserve.ita.GroupsDependencies"/>
+        </classes>
+    </test>
+</suite>
